@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TXTOmedia.MCP.API.SDK.Sample", "..\TXTOmedia.MCP.API.SDK.Sample\TXTOmedia.MCP.API.SDK.Sample.csproj", "{B4E3D065-C047-4D07-ADE5-3545F3C82224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TXTOmedia.MCP.API.SDK.Sample", "TXTOmedia.MCP.API.SDK.Sample\TXTOmedia.MCP.API.SDK.Sample.csproj", "{B4E3D065-C047-4D07-ADE5-3545F3C82224}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TXTOmedia.MCP.API.SDK", "..\TXTOmedia.MCP.API.SDK\TXTOmedia.MCP.API.SDK.csproj", "{D20E26A6-9301-4BAB-841F-B57AD0B0B183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TXTOmedia.MCP.API.SDK", "TXTOmedia.MCP.API.SDK\TXTOmedia.MCP.API.SDK.csproj", "{D20E26A6-9301-4BAB-841F-B57AD0B0B183}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TXTOmedia.MCP.API.Contracts", "..\TXTOmedia.MCP.API.Contracts\TXTOmedia.MCP.API.Contracts.csproj", "{583424AF-2B9C-4123-B497-705F69461CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TXTOmedia.MCP.API.Contracts", "TXTOmedia.MCP.API.Contracts\TXTOmedia.MCP.API.Contracts.csproj", "{583424AF-2B9C-4123-B497-705F69461CC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57F857DC-6D62-47DF-8DD8-15FBE107A323}"
+	ProjectSection(SolutionItems) = preProject
+		Licence.txt = Licence.txt
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
