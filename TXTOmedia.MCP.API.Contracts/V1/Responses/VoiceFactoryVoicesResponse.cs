@@ -27,8 +27,7 @@ namespace TXTOmedia.MCP.API.Contracts.V1.Responses
     public partial class Language
     {
         [JsonProperty("voiceid")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long Id { get; set; }
+        public string Id { get; set; }
 
         [JsonProperty("Locale")]
         public string Locale { get; set; }

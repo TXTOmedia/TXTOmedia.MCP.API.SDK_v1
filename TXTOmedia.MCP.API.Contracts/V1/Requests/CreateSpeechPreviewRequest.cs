@@ -10,8 +10,9 @@
         /// </summary>
         public string Text { get; set; }
         /// <summary>
-        /// a Voice id is needed to select a certain voice for a language you can retrieve the the voiceid by a call XXX 
+        /// a Voice id is needed to select a certain voice for a language you can retrieve the the voiceid by a call to endpoit speech/voicelist to receive  a voicelist
+        /// voiceid always start with a 'V' and have 3 digits
         /// </summary>
-        public int?  VoiceId  { get; set; }
+        public string  VoiceId  { get; set; }
     }
 }

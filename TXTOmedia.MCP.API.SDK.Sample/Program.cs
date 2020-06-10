@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Net;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -12,14 +13,14 @@ namespace TXTOmedia.MCP.API.SDK.Sample
         private const string ApiKeyHeaderName = "ApiKey";
 
         // the API key for accessing TXTOmedia's MCP (Media Creation Platform) API
-        private const string ApiKey = "Mykey";
-        private const string ApiUrl = "https://api.txtomedia.net";
+        private const string ApiKey = "YourKey";
+        private const string ApiUrl = "Api Endpoint";
 
         static async Task Main()
         {
             Console.WriteLine("Hello TXTOmedia");
 
-            // we are using a cleint to pass extra API Key header
+            // we are using a client to pass extra API Key header
             var client = new HttpClient(new HttpClientHandler())
             {
                 BaseAddress = new Uri(ApiUrl)
@@ -41,7 +42,10 @@ namespace TXTOmedia.MCP.API.SDK.Sample
 
             // getting the response 
             Console.WriteLine("** UploadResponse");
-            Console.WriteLine(JsonSerializer.Serialize(uploadAsync.Content, new JsonSerializerOptions() { WriteIndented = true }));
+            Console.WriteLine($"** StatusCode: {uploadAsync.StatusCode}");
+            if (uploadAsync.StatusCode == HttpStatusCode.Unauthorized) Console.WriteLine(">> Check APIKey <<");
+            Console.WriteLine();
+                Console.WriteLine(JsonSerializer.Serialize(uploadAsync.Content, new JsonSerializerOptions() { WriteIndented = true }));
 
             if (uploadAsync.Content != null)
             {
