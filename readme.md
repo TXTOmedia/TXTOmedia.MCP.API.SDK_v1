@@ -13,7 +13,7 @@ For more info [TXTOmedia](https://www.txtomedia.com/)
 
 Requirements
 ------------
-- [Contact](https://www.txtomedia.com/contact-us/) for a TXTOmedia Media Creation Platform account API key
+- [Contact](https://www.txtomedia.com/contact-us/) for a TXTOmedia Media Creation Platform account API key and API Endpoint
 - An application written in C# to make use of this SDK
 
 ## Installation
@@ -27,7 +27,7 @@ Requirements
 Complete documentation and instructions are available at: [your api end point]/swagger/
 
 ## Status
-If you see something not planned, that you want, make an [issue](https://github.com/TXTOmedia/TXTOmedia_API_SDK/issues) and there's a good chance I will add it.
+If you see something not planned, that you want, make an [issue]https://github.com/TXTOmedia/TXTOmedia.MCP.API.SDK_v1/issues) and there's a good chance I will add it.
 the core API
 - [x] File uploads
 - [x] Batch overview
