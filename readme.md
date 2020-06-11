@@ -27,7 +27,7 @@ Requirements
 Complete documentation and instructions are available at: [your api end point]/swagger/
 
 ## Status
-If you see something not planned, that you want, make an [issue]https://github.com/TXTOmedia/TXTOmedia.MCP.API.SDK_v1/issues) and there's a good chance I will add it.
+If you see something not planned, that you want, make an [issue](https://github.com/TXTOmedia/TXTOmedia.MCP.API.SDK_v1/issues) and there's a good chance I will add it.
 the core API
 - [x] File uploads
 - [x] Batch overview
